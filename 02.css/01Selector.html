@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seclector</title>
+    <!--
+    three Types of seclectors...
+    1. simple seclector
+        a. element selector
+        b. class selector
+        c. ID selector
+    2.pseudo-class selector
+    3.Multiple selector
+    4.universal selector
+    5.Nested Selector
+    6.Attribute Selector
+    -->
+
+    <style>
+        p{ /*element selector*/
+    
+            color: rgb(15, 231, 84);
+            background-color: bisque;
+        }
+        .para{/*  class selector:diff tags can belongs to same class*/
+            color: rgb(246, 143, 41);
+        }
+        #poro{/*  id selector: it is unique*/
+            color: brown;
+        }
+        button:hover{/*pseudo selector*/
+            color: yellow;
+        }
+        
+        table,td,tr{ /*multiple selector*/
+            border: 1px solid blue;
+            border-collapse: collapse;
+
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam blanditiis quos earum facilis. Quos hic eos in minus illo eius obcaecati harum necessitatibus, ut officia, vel praesentium accusantium quis dignissimos.</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore harum totam neque placeat qui molestias tempora eveniet ea voluptatum iusto itaque ut dolor expedita nulla, nobis possimus veritatis culpa numquam!  </p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore harum totam neque placeat qui molestias tempora eveniet ea voluptatum iusto itaque ut dolor expedita nulla, nobis possimus veritatis culpa numquam!  </p>
+    <p id="poro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore harum totam neque placeat qui molestias tempora eveniet ea voluptatum iusto itaque ut dolor expedita nulla, nobis possimus veritatis culpa numquam!  </p>
+    <button>hello</button>
+    <table>
+        <caption>MY First </caption>
+        <thead>
+            <tr>
+                <td>Month</td>
+                <td>Saving</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>                                                                
+                <td>jan </td>
+                <td>100</td>
+            </tr>
+        </tbody>
+        
+
+        
+
+    </table>
+</body>
+</html>
