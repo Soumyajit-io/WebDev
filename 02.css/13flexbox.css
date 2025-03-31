@@ -1,0 +1,24 @@
+.container{
+    height: 400px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;/*maintain the width of childs*/
+    /*flex-flow: ;  combination of flex direction  and flex wrap*/
+    gap: 10px;
+    justify-content: center;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    
+    justify-content: space-around;
+    
+    align-items: center;
+
+}
+.box{
+    border: 3px solid green;
+    
+   
+    width: 50px;
+    height: 100px;
+}

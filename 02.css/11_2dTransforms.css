@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+  background-color: aqua;
+  /*transform: translate(100px,100px);
+  transform: rotate(-45deg);
+  transform: scale(200,20);  */
+  transform: skew(45deg);
+}
