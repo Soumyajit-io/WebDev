@@ -1,0 +1,63 @@
+.mbox div {
+    display: inline-block;
+    
+}
+.mbox{
+    height: 1000px;
+    width: 1500px;
+    background-color: bisque;
+}
+.box1{
+    
+    background-color: aqua;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    position: static;/*Default position*/
+    
+}
+.box2{
+   
+    background-color: aqua;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    position: relative;/*Relative to normal position*/
+    top: 100px;
+    
+}
+
+
+.box3{
+    
+    background-color: aqua;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    left: 900px;
+    
+
+    
+}
+
+
+.box4{
+   
+    background-color: aqua;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    
+    
+}
+.box5{
+    
+    background-color: aqua;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    position: sticky;
+    top: 0;
+}

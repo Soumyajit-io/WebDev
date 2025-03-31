@@ -1,0 +1,48 @@
+.box{
+    display: flex;
+}
+.box1{
+    margin: 50px;
+    background-color: aqua;
+    border: 1px solid black;
+    width: 200px;
+    
+    max-height: 300px;/*Relative height*/
+    overflow: visible;
+    
+    
+}
+.box2{
+    margin: 50px;
+    background-color: aqua;
+    border: 1px solid black;
+    width: 200px;
+    
+    max-height: 300px;/*Relative height*/
+    overflow: hidden;
+
+    
+}
+.box3{
+    margin: 50px;
+    background-color: aqua;
+    border: 1px solid black;
+    width: 200px;
+    
+    max-height: 300px;/*Relative height*/
+    overflow: scroll;
+
+    
+}
+.box4{
+    margin: 50px;
+    background-color: aqua;
+    border: 1px solid black;
+    width: 200px;
+    
+    max-height: 300px;/*Relative height*/
+    overflow: auto;
+
+    
+}
+/**/
