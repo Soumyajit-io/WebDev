@@ -4,4 +4,5 @@ let rectangle = {
     breadth : 2,
     
 };
-console.log(rectangle.length);
+rectangle.length = rectangle.length+1;//value change 
+console.log(rectangle);
